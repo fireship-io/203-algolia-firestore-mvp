@@ -10,7 +10,8 @@ const fakeIt = () => {
         username: faker.internet.userName(),
         email: faker.internet.email(),
         avatar: faker.internet.avatar(),
-        bio: faker.hacker.phrase()
+        bio: faker.hacker.phrase(),
+        color: faker.commerce.color()
     });
 }
 
