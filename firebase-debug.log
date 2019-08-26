@@ -1,0 +1,18 @@
+[debug] [2019-08-26T02:50:08.232Z] ----------------------------------------------------------------------
+[debug] [2019-08-26T02:50:08.234Z] Command:       C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\firebase-tools\lib\bin\firebase.js deploy --only functions
+[debug] [2019-08-26T02:50:08.234Z] CLI Version:   7.2.2
+[debug] [2019-08-26T02:50:08.234Z] Platform:      win32
+[debug] [2019-08-26T02:50:08.234Z] Node Version:  v10.16.0
+[debug] [2019-08-26T02:50:08.235Z] Time:          Sun Aug 25 2019 19:50:08 GMT-0700 (Mountain Standard Time)
+[debug] [2019-08-26T02:50:08.235Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2019-08-26T02:50:08.260Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2019-08-26T02:50:08.260Z] > authorizing via signed-in user
+[debug] [2019-08-26T02:50:08.260Z] [iam] checking project fireship-lessons for permissions ["cloudfunctions.functions.create","cloudfunctions.functions.delete","cloudfunctions.functions.get","cloudfunctions.functions.list","cloudfunctions.functions.update","cloudfunctions.operations.get","firebase.projects.get"]
+[debug] [2019-08-26T02:50:08.261Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2019-08-26T02:50:08.262Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ <request body omitted>
+[debug] [2019-08-26T02:50:08.474Z] <<< HTTP RESPONSE 200
+[debug] [2019-08-26T02:50:08.482Z] >>> HTTP REQUEST POST https://cloudresourcemanager.googleapis.com/v1/projects/fireship-lessons:testIamPermissions  
+
+[debug] [2019-08-26T02:50:08.857Z] <<< HTTP RESPONSE 200

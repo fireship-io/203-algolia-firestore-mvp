@@ -1,1 +1,0 @@
-Follow the Fireship [FlutterFire setup guide](https://fireship.io/snippets/install-flutterfire/). 

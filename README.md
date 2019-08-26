@@ -7,8 +7,6 @@ Automatically index your Firestore data for full-text search with Algolia, inclu
 Frontend integration examples: 
 
 - ✅ Angular
-- ✅ Vue
 - ✅ React
 - ✅ Svelte
-- ✅ Flutter
 
