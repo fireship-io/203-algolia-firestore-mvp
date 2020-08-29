@@ -43,7 +43,7 @@ async function search() {
 <h1>Svelte InstantSearch</h1>
 
 <div>
-	<input type="text" bind:value={query} on:keyup={search}>
+	<input type="text" bind:value={query} on:input={search}>
 </div>
 
 
